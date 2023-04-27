@@ -1,5 +1,5 @@
 def mendel():
-    dir=input("type direction")
+    dir=input("type directory")
     with open(dir, "r") as f:
         (k,m,n)=(int(value) for value in f.readline().split())
     a=k+m+n
