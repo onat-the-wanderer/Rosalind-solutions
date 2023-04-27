@@ -1,4 +1,4 @@
-dir=input("type direction")
+dir=input("type directory")
 with open(dir,"r") as f:
           f=f.read().split("\n")
 
