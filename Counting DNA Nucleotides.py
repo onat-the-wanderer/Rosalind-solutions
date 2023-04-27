@@ -17,7 +17,7 @@ def count_DNA_nucleotides(x):
     
     return print(result[0],result[1],result[2],result[3])
 
-dir=input("type direction")
+dir=input("type directory")
 with open(dir,"r") as f:
           f=f.read()
 
