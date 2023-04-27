@@ -5,7 +5,7 @@ def transcribing(dna):
     file.close()
     return print(rna)
 
-dir=input("type direction")
+dir=input("type directory")
 with open(dir,"r") as f:
           f=f.read()
 
