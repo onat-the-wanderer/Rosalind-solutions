@@ -3,7 +3,7 @@ dir=input("type directory")
 with open(dir, "r") as f:
     f=f.read()
 
-f=f[:-4] #in order to remove "none" characters at the end of protein sequence. will be reworked.
+f=f[:-4] #this line is added in order to remove "NONE" characters at the end of protein sequence. will be reworked.
 
 lib={
         'UUU':'F', 'UUC':'F', 'UUA':'L', 'UUG':'L',
