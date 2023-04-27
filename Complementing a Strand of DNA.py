@@ -18,7 +18,7 @@ def complementary(dna):
     
     
 #/Users/onat/Downloads/rosalind_dna-2.txt
-dir=input("type direction")
+dir=input("type directory")
 with open(dir,"r") as f:
     f=f.read().strip()
 complementary(f)
