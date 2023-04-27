@@ -10,7 +10,7 @@ def rabbits_number(n,k):
     file.close()
     return print(F)
         
-dir=input("type direction")
+dir=input("type directory")
 with open(dir,"r") as f:
           f=f.readline().strip().split(" ",2)
         
